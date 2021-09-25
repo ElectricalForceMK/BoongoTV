@@ -1480,8 +1480,8 @@
 <addon
   id="pvr.boongotvw64mat"
   version="0.0.3zd"
-  name="BoongoTV Client for Kodi 19 Matrix"
-  provider-name="ElectricalForce">
+  name="BoongoTV Client"
+  provider-name="[COLOR red]ElectricalForce[/COLOR]">
   <requires>
 <import addon="kodi.binary.global.main" minversion="1.2.0" version="1.3.0"/>
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
