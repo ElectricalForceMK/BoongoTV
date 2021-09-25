@@ -1654,32 +1654,32 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.ZadarHRrepo" name="[COLOR blue]ZadarHR[/COLOR] repo" version="1.3.9.6" provider-name="ZadarTeam">
+<addon id="repository.BoongoTVRepo" name="[COLOR blue]BoongoTV[/COLOR] [COLOR red]Repo[/COLOR]" version="1.0.5" provider-name="[COLOR red]ElectricalForce[/COLOR]">
 	<extension point="xbmc.addon.repository" name="ZadarHRrepo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
 		</dir>
-		<info compressed="false">https://raw.githubusercontent.com/zadarteam/ZadarHRrepo/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/zadarteam/ZadarHRrepo/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/zadarteam/ZadarHRrepo/master/zips/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/ElectricalForceMK/BoongoTV/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/ElectricalForceMK/BoongoTV/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/ElectricalForceMK/BoongoTV/master/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">ZadarHRrepo by ZadarTeam</summary>
-		<description lang="en">U ovom repo cete naci najnovije addonove i buildove od nasega tima potpuno prilagodjenih za podrucje ExYu i balkana</description>
+		<summary lang="en">BoongoTVRepo by ElectricalForce</summary>
+		<description lang="en">[COLOR gold]Ovo je BoongoTV Online TV by ElectricalForce[/COLOR]</description>
 		<genre>all</genre>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
         </assets>
-		<news>
+		<news>		
 Uživajte
 
-http://zadarbuild.com.hr
+http://electricalforce.eu
 </news>
 	</extension>
-</addon>
+</addon>>
 
 <addon
   id="resource.language.hr_hr"
