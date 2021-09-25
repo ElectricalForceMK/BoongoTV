@@ -946,7 +946,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.ZTB-HR.Wizard19" name="[COLOR darkcyan]Zadar [/COLOR]Wizard" version="0.0.2" provider-name="Zd Team">
+<addon id="plugin.program.BoongoTV.Wizard" name="[COLOR blue]BoongoTV[/COLOR] [COLOR red]Wizard[/COLOR]" version="0.0.2" provider-name="[COLOR red]ElectricalForce[/COLOR]">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -954,19 +954,19 @@
         <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
         <import addon="script.speedtester" optional="true" version="1.1.2" />
     </requires>
-
+    
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
     </extension>
-
+    
     <extension point="xbmc.service" library="startup.py" start="startup" />
-
+    
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR darkcyan]Zadar[/COLOR]Wizard</summary>
+        <summary lang="en">[COLOR blue]BoongoTV[/COLOR] [COLOR red]Wizard[/COLOR]</summary>
         <description lang="en"></description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>http://zadarbuild.com.hr/</source>
+        <source>http://electricalforce.eu</source>
         <news>
         </news>
         <assets>
