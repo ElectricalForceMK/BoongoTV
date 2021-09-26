@@ -1316,7 +1316,7 @@
 <import addon="kodi.binary.instance.pvr" minversion="7.1.0" version="7.1.0"/></requires>
   <extension
     point="kodi.pvrclient"
-    library_windows="pvr.stalker.dll"/>
+    library_android="libpvr.stalker.so"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="de_DE">PVR Client um Kodi mit BoongoTV Middleware zu verbinden</summary>
     <summary lang="en_GB">PVR Client to connect Kodi to BoongoTV Middleware</summary>
