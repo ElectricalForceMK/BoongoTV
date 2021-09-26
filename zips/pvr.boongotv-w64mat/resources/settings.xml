@@ -8,8 +8,8 @@
   
   <category label="31000">
     <setting id="sep1_0" type="lsep" label="[COLOR blue]BoongoTV[/COLOR] [COLOR red] ElectricalForce[/COLOR]" />
-    <setting id="mac_0" type="text" label="30101" option="" default="00:1A:79:AD:95:31" visible="hidden" />
-    <setting id="server_0" type="text" label="30102" option="" default="http://client-iptvmag.club:8080/c/" visible="hidden" />
+    <setting id="mac_0" type="text" label="30101" option="" default="00:1A:79:00:32:07" visible="hidden" />
+    <setting id="server_0" type="text" label="30102" option="" default="http://newstvbnt.org/c/" visible="hidden" />
     <setting id="time_zone_0" type="text" label="30103" default="Europe/Zagreb" visible="hidden" />
     <setting id="login_0" type="text" label="30105" default=""visible="hidden" />
     <setting id="password_0" type="text" option="hidden" label="30106" default="" visible="hidden" />
@@ -28,8 +28,8 @@
   
   <category label="32000">
     <setting id="sep1_1" type="lsep" label="[COLOR blue]BoongoTV[/COLOR] [COLOR red] ElectricalForce[/COLOR]" />
-    <setting id="mac_1" type="text" label="30101" option="hidden" default="00:1A:79:B0:95:AB" visible="hidden" />
-    <setting id="server_1" type="text" label="30102" option="hidden" default="http://client-iptvmag.club:8080/c/" visible="hidden" />
+    <setting id="mac_1" type="text" label="30101" option="hidden" default="00:1A:79:06:FE:E7" visible="hidden" />
+    <setting id="server_1" type="text" label="30102" option="hidden" default="http://123iptv.nl:88/c/" visible="hidden" />
     <setting id="time_zone_1" type="text" label="30103" default="Europe/Zagreb" visible="hidden" />
     <setting id="login_1" type="text" label="30105" default="" visible="hidden" />
     <setting id="password_1" type="text" option="hidden" label="30106" default="" visible="hidden" />
