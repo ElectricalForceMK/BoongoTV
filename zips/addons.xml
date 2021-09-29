@@ -1215,19 +1215,19 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ZadarTeamAddon19"
-       name="[COLOR blue][B]ZADAR TEAM ADDON[/B][/COLOR]"
-       version="3.0.0+matrix"
-       provider-name="ZTBH">
+<addon id="plugin.video.BoongoTV"
+       name="[COLOR mediumblue][B]BoongoTV[/B][/COLOR] [COLOR red][B]Addon[/B][/COLOR]"
+       version="3.0.0ee"
+       provider-name="[COLOR red]ElectricalForce[/COLOR]">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
     <import addon="script.module.simplejson"/>
 	<import addon="script.module.kodi-six" />
-</requires>
+</requires>  
 <extension point="xbmc.python.pluginsource" library="default.py">
 	<provides>video</provides>
-</extension>
+</extension>   
 <extension point="xbmc.addon.metadata">
 	 <summary lang="hr">Ovaj add-on ne sadrzi nikakav sadrzaj unutar add-ona vec samo linkove koji vode do strimova. </summary>
     <description lang="hr">Nijedna televizijska stanica ne podržava ovaj dodatak, a pruža se "kakav jest" bez ikakvog jamstva. </description>
