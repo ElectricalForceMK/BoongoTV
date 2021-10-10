@@ -1312,8 +1312,8 @@
 <addon
   id="pvr.boongotv-w64mat"
   version="0.0.5ee"
-  name="BoongoTV Client"
-  provider-name="ElectricalForce">
+  name="[COLOR mediumblue][B]BoongoTV[/B][/COLOR] [COLOR red][B]Client[/B][/COLOR]"
+  provider-name="[COLOR gold][B]ElectricalForce[/B][/COLOR]">
   <requires>
 <import addon="kodi.binary.global.main" minversion="1.2.0" version="1.3.0"/>
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
