@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.BoongoTV.Wizard" name="[COLOR blue]BoongoTV[/COLOR] [COLOR red]Wizard[/COLOR]" version="0.0.2" provider-name="[COLOR red]ElectricalForce[/COLOR]">
+<addon id="plugin.program.BoongoTV.Wizard" name="[COLOR mediumblue][B]BoongoTV[/B][/COLOR] [COLOR red][B]Wizard[/B][/COLOR]" version="0.0.2" provider-name="[COLOR gold][B]ElectricalForce[/B][/COLOR]">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -15,8 +15,8 @@
     <extension point="xbmc.service" library="startup.py" start="startup" />
     
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR blue]BoongoTV[/COLOR] [COLOR red]Wizard[/COLOR]</summary>
-        <description lang="en"></description>
+        <summary lang="en">[COLOR mediumblue][B]BoongoTV[/B][/COLOR] [COLOR red][B]Wizard[/B][/COLOR]</summary>
+        <description lang="en">[COLOR gold]The Future Of Home Entertainment[/COLOR][CR]Kodi Repository for [COLOR steelblue]BoongoTV[/COLOR][CR][COLOR gold][B]ElectricalForce[/B][/COLOR] [COLOR white]Repo[/COLOR] allows you to install the BoongoTV WIZARD where you can get access to the latest BoongoTV Custom Builds and more.</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <source>http://electricalforce.eu</source>
