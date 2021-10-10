@@ -13,7 +13,7 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = '[COLOR blue]BoongoTV[/COLOR] [COLOR red]Wizard[/COLOR]'
+ADDONTITLE = '[COLOR mediumblue][B]BoongoTV[/B][/COLOR] [COLOR red][B]Wizard[/COLOR]'
 BUILDERNAME = 'BoongoTV.Wizard'
 EXCLUDES = [ADDON_ID, 'repository.BoongoTVRepo']
 # Text File with build info in it.
@@ -114,7 +114,7 @@ NOTIFICATION = 'http://'
 HEADERTYPE = 'Text'
 # Font size of header
 FONTHEADER = 'Font14'
-HEADERMESSAGE = '[COLOR blue]BoongoTV[/COLOR] [COLOR red]Wizard[/COLOR]'
+HEADERMESSAGE = '[COLOR mediumblue][B]BoongoTV[/B][/COLOR] [COLOR red][B]Wizard[/COLOR]'
 # url to image if using Image 424x180
 HEADERIMAGE = 'http://'
 # Font for Notification Window
