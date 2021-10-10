@@ -1,8 +1,13 @@
 <?xml version="3.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.BoongoTV"
        name="[COLOR mediumblue][B]BoongoTV[/B][/COLOR] [COLOR red][B]Addon[/B][/COLOR]"
+<<<<<<< HEAD
        version="3.0.0"
        provider-name="ZTBH">
+=======
+       version="3.0.0ee"
+       provider-name="[COLOR red]ElectricalForce[/COLOR]">
+>>>>>>> af9484d68ec821518f7aff51cae0c8b894521f8a
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>

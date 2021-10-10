@@ -946,6 +946,39 @@
   </extension>
 </addon>
 
+<addon id="plugin.program.BoongoTV.Wizard" name="BoongoTV 19 Wizard" version="0.0.2" provider-name="ElectricalForce">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Simple 19 Wizard is a lightweight template for installing builds on Kodi 19 Matrix. Has some code from Aftermath Wizard by Surfacingx. Skin Switch by OpenELEQ. Base code by BYB. Credits to them and all others who contributed. Please report any bugs to @slamious on Telegram/Twitter.</summary>
+		<description lang="en_GB">Kodi 19 Wizard</description>
+		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum></forum>
+		<website></website> 
+		<email></email>
+		<source></source>
+		<news>1.0.5 - Initial Release
+		</news>
+		<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<banner></banner>
+				<clearlogo></clearlogo>
+				<screenshot></screenshot>
+		</assets>
+	</extension>
+</addon>
+	
+	
 <addon id="plugin.program.BoongoTV.Wizard" name="[COLOR blue]BoongoTV[/COLOR] [COLOR red]Wizard[/COLOR]" version="0.0.2" provider-name="[COLOR red]ElectricalForce[/COLOR]">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
@@ -976,50 +1009,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.adrianaeurope" name="[B][I][COLOR mediumblue]Adriana Europe[/COLOR][/I][/B]" version="1.1.0" provider-name="KZBH">
-    <requires>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>]Adriana Europe</summary>
-        <description>]Adriana Europe je KODI Addon za gledanje live TV programa. Autor ovog addona (programskog dodatka) nema nikakav autorski materijal unutar ovog addona. Koristi linkove koji su dostupni na internetu, te ne snosi nikakvu odgovornost za njegovu upotrebu.</description>
-    </extension>
-</addon>
-
-
-				<!--// Adriana XXX Free Tv List Addon Hrvatski\\-->
-
-<addon id="plugin.video.adrianaxxx" name="[B][I][COLOR blue]Adriana XXX[/B][/COLOR][/I]" version="1.0.3" provider-name="MLAĐO">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-	<import addon="script.module.urlresolver" />
-	<import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.maverick.pairwith" version="1.6"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-		<summary lang="hr_HR">Ovaj add-on ne sadrzi nikakav sadrzaj unutar add-ona vec samo linkove koji vode do strimova.</summary>
-		<platform>all</platform>
-		<website>zadarbuild.com.hr</website>
-  </extension>
-</addon>
 
 <addon id="plugin.video.f4mTester" name="f4mTester" version="2.7.2" provider-name="Shani">
     <requires>
@@ -1081,153 +1070,20 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.spotitube" name="Youtube Music ZD" version="2.1.7~alpha1zd" provider-name="realvito (inspired by L0RE) and ZadarTeam">
-	<requires>
-		<import addon="xbmc.python" version="2.25.0"/>
-		<import addon="plugin.video.youtube" version="6.3.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video audio</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="de_DE">YouTube Musicplayer</summary>
-		<summary lang="en_GB">YouTube Musicplayer</summary>
-		<description lang="de_DE">Musik aus verschiedenen Quellen z.B. Beatport, Billboard, iTunes, Officialcharts etc. auswählen und über YouTube abspielen.[CR][CR]Für mehr Informationen zu allen Neuerungen siehe - CHANGELOG.[CR]     TEST IT AND LIKE IT</description>
-		<description lang="en_GB">Choose Music from different sources e.g. Beatport, Billboard, iTunes, Officialcharts etc. and play it via YouTube.[CR][CR]For more information about all new features see - CHANGELOG.[CR]     TEST IT AND LIKE IT</description>
-		<disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
-		<disclaimer lang="en_GB">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
-		<language></language>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-		<forum>http://www.kodinerds.net/index.php/Thread/47087-Release-YoutubeMusic-patched/</forum>
-		<website></website>
-		<email></email>
-		<source>https://github.com/kodinerds/repo/tree/master/plugin.video.spotitube</source>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-		<news>[B][COLOR orangered]Version 2.1.7zd  (28.02.2020)[/COLOR][/B] by realvito and ZadarTeam[CR]
-- fixed: long wait time for playback
-- fixed: error for playback of playlists
-		</news>
-	</extension>
-</addon>
 
-<addon id="plugin.video.youtube" name="YouTube ZD" version="6.8.4~alpha3zd" provider-name="anxdpanic, bromix and ZadarTeam">
-    <requires>
-        <import addon="xbmc.python" version="2.20.0"/>
-        <import addon="script.module.six" version="1.11.0"/>
-        <import addon="script.module.requests" version="2.12.4"/>
-        <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="resources/lib/default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="resources/lib/startup.py" start="login"/>
-    <extension point="xbmc.python.module" library="resources/lib/"/>
-    <extension point="xbmc.addon.metadata">
-        <news>
-[fix] notifications for some languages
-        </news>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-        <summary lang="en_GB">Plugin for YouTube</summary>
-        <description lang="en_GB">YouTube is one of the biggest video-sharing websites of the world.</description>
-        <disclaimer lang="en_GB">This plugin is not endorsed by Google</disclaimer>
-        <summary lang="he_IL">תוסף עבור YouTube</summary>
-        <description lang="he_IL">YouTube הוא אחד מאתרי שיתוף הווידאו הגדולים בעולם.</description>
-        <summary lang="de_DE">Plugin für YouTube</summary>
-        <description lang="de_DE">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
-        <summary lang="pl_PL">Wtyczka YouTube</summary>
-        <description lang="pl_PL">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
-        <summary lang="hu_HU">YouTube kiegészítő</summary>
-        <description lang="hu_HU">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
-        <summary lang="es_ES">Plugin para YouTube</summary>
-        <description lang="es_ES">YouTube es uno de los sitios web más grande del mundo para compartir vídeos.</description>
-        <disclaimer lang="es_ES">Este add-on no está respaldado por Google</disclaimer>
-        <summary lang="es_MX">Plugin para YouTube</summary>
-        <description lang="es_MX">YouTube es uno de los más grandes sitios web de intercambio de videos del mundo.</description>
-        <disclaimer lang="es_MX">Este add-on no está respaldado por Google</disclaimer>
-        <summary lang="ru_RU">Видеодополнение YouTube</summary>
-        <description lang="ru_RU">YouTube - популярнейший видеохостинговый сайт, предоставляющий пользователям услуги хранения, доставки и показа видео.</description>
-        <summary lang="fr_FR">Plugin pour YouTube</summary>
-        <description lang="fr_FR">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
-        <summary lang="zh_CN">YouTube附加元件</summary>
-        <description lang="zh_CN">「Youtube」是全世界最大的影片分享網站</description>
-        <summary lang="zh_TW">YouTube附加元件</summary>
-        <description lang="zh_TW">「Youtube」是全世界最大的影片分享網站</description>
-        <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
-        <summary lang="bg_BG">Добавка за YouTube</summary>
-        <description lang="bg_BG">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
-        <summary lang="el_GR">Πρόσθετο YouTube</summary>
-        <description lang="el_GR">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
-        <disclaimer lang="el_GR">Η παρούσα μικροεφαρμογή δεν έχει υϊοθετηθεί από την Google</disclaimer>
-        <summary lang="nb_NO">Tillegg for YouTube</summary>
-        <description lang="nb_NO">YouTube er en av verdens største nettsider for videodeling.</description>
-        <summary lang="ko_KR">유튜브 플러그인</summary>
-        <description lang="ko_KR">유튜브는 세상에서 가장 큰 동영상 공유 사이트 중의 하나입니다.</description>
-        <summary lang="cs_CZ">Plugin pro YouTube</summary>
-        <description lang="cs_CZ">YouTube je jedna z největších webových stránek světa sdílející video.</description>
-        <disclaimer lang="cs_CZ">Tento plugin není schválen společností Google</disclaimer>
-        <summary lang="tr_TR">YouTube için eklenti</summary>
-        <description lang="tr_TR">YouTube, dünya üzerindeki en büyük video paylaşma platformlarından birisidir</description>
-        <disclaimer lang="tr_TR">Bu eklenti Google tarafından üretilmemiştir</disclaimer>
-        <platform>all</platform>
-        <license>GPL-2.0-only</license>
-        <forum>https://ytaddon.page.link/forum</forum>
-        <website>https://www.youtube.com</website>
-        <email>ytplugin at datanet dot ws</email>
-        <source>https://github.com/jdf76/plugin.video.youtube</source>
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-    </extension>
-</addon>
-
-
-				<!--// ZADAR TEAM ADDON 18 Free Tv List Addon Hrvatski\\-->
-
-<addon id="plugin.video.ZadarTeamAddon18" name="[B][I][COLOR mediumslateblue]ZADAR TEAM ADDON 18[/B][/COLOR][/I]" version="2.1.0+leia" provider-name="ZBTH">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-	<import addon="script.module.urlresolver" />
-	<import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-		<summary lang="hr_HR">Ovaj add-on ne sadrzi nikakav sadrzaj unutar add-ona vec samo linkove koji vode do strimova.</summary>
-		<platform>all</platform>
-		<website></website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.ZadarTeamAddon19"
-       name="[COLOR blue][B]ZADAR TEAM ADDON[/B][/COLOR]"
-       version="3.0.0+matrix"
-       provider-name="ZTBH">
+<addon id="plugin.video.BoongoTV"
+       name="[COLOR mediumblue][B]BoongoTV[/B][/COLOR] [COLOR red][B]Addon[/B][/COLOR]"
+       version="3.0.0ee"
+       provider-name="[COLOR red]ElectricalForce[/COLOR]">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
     <import addon="script.module.simplejson"/>
 	<import addon="script.module.kodi-six" />
-</requires>
+</requires>  
 <extension point="xbmc.python.pluginsource" library="default.py">
 	<provides>video</provides>
-</extension>
+</extension>   
 <extension point="xbmc.addon.metadata">
 	 <summary lang="hr">Ovaj add-on ne sadrzi nikakav sadrzaj unutar add-ona vec samo linkove koji vode do strimova. </summary>
     <description lang="hr">Nijedna televizijska stanica ne podržava ovaj dodatak, a pruža se "kakav jest" bez ikakvog jamstva. </description>
@@ -1660,32 +1516,27 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.BoongoTVRepo" name="[COLOR blue]BoongoTV[/COLOR] [COLOR red]Repo[/COLOR]" version="1.0.5" provider-name="[COLOR red]ElectricalForce[/COLOR]">
-	<extension point="xbmc.addon.repository" name="ZadarHRrepo">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-		</dir>
+<addon id="repository.BoongoTVRepo19" name="[COLOR mediumblue][B]BoongoTV[/B][/COLOR] [COLOR red][B]Repository[/B][/COLOR]" version="1.0.5" provider-name="[COLOR gold][B]ElectricalForce[/B][/COLOR]">
+	<extension point="xbmc.addon.repository" name="BoongoTV Repository">
 		<info compressed="false">https://raw.githubusercontent.com/ElectricalForceMK/BoongoTV/master/zips/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/ElectricalForceMK/BoongoTV/master/zips/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/ElectricalForceMK/BoongoTV/master/zips/</datadir>
+		<dir>
+    <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+    </dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">BoongoTVRepo by ElectricalForce</summary>
-		<description lang="en">[COLOR gold]Ovo je BoongoTV Online TV by ElectricalForce[/COLOR]</description>
-		<genre>all</genre>
+		<summary>BoongoTV Repository</summary>
+		<description>[COLOR gold]The Future Of Home Entertainment[/COLOR][CR]Kodi Repository for [COLOR steelblue]BoongoTV[/COLOR][CR][COLOR gold][B]ElectricalForce[/B][/COLOR] [COLOR white]Repo[/COLOR] allows you to install the BoongoTV WIZARD where you can get access to the latest BoongoTV Custom Builds and more.</description>
+		<platform>all</platform>
 		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-        </assets>
-		<news>		
-Uživajte
-
-http://electricalforce.eu
-</news>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+     </assets>
 	</extension>
-</addon>>
+</addon>
 
 <addon
   id="resource.language.hr_hr"
@@ -3079,6 +2930,7 @@ v5.2.14 (2017-01-23)
     </extension>
 </addon>
 
+	
 <addon id="skin.aeon.speed" version="1.0.3" name="Aeon:Speed" provider-name="Speed Skins">
 	<requires>
 		<import addon="script.skin.helper.colorpicker" version="1.0.12" />
@@ -3102,4 +2954,4 @@ v5.2.14 (2017-01-23)
 		<news>[COLOR red][I]v1.0.3[/I][/COLOR][COLOR blue][CR]-Fix Apps left panel scroll bar for Android OS.[CR]-Fix OSD Sider.[CR]-Fix default_settings backgrounds.[CR][COLOR red][I]v1.0.2[/I][/COLOR][COLOR blue][CR]-Added default Favs submenu authorize for resolvers and trakt.  Added default zip and repo install.[CR]-Fix PVR video window.[CR]-Added "Make It Snow" option.[CR]-Changed font, added 3D label, and shadow color to main menu labels.[CR]-Fixed Apps right panel scroll bar.[CR]-Added extra icons for menu. Adjusted vert and horz icons and labels.[CR]-Removed xbt files from media.[/COLOR][COLOR grey][CR][I]v1.0.1[/I][CR]-Moved debug grid image to backgrounds folder so special source not required.[CR]-Added an optional widget 2 slide up for compact panel when in center position.[CR]-Fixed widget 2 glow and made panel and glow there own options.[CR]-Add the png for the time line bar in the new pvr[CR]-Fix supported addons view.[CR][I]v1.0.0[/I][CR]-Release to repo.[CR]http://zadarbuild.com.hr/repo/ [/COLOR][CR]</news>
 	</extension>
 </addon>
-</addons>
+</addons>	
