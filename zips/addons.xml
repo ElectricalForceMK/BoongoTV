@@ -946,7 +946,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.BoongoTV.Wizard" name="BoongoTV 19 Wizard" version="0.0.2" provider-name="ElectricalForce">
+<addon id="plugin.program.BoongoTV.Wizard" name="[COLOR mediumblue][B]BoongoTV[/B][/COLOR] [COLOR red][B]Wizard[/B][/COLOR]" version="0.0.2" provider-name="[COLOR gold][B]ElectricalForce[/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" optional="true" />
@@ -956,9 +956,9 @@
 	</extension>
 	<extension point="xbmc.service" library="service.py" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Simple 19 Wizard is a lightweight template for installing builds on Kodi 19 Matrix. Has some code from Aftermath Wizard by Surfacingx. Skin Switch by OpenELEQ. Base code by BYB. Credits to them and all others who contributed. Please report any bugs to @slamious on Telegram/Twitter.</summary>
-		<description lang="en_GB">Kodi 19 Wizard</description>
-		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<summary lang="en_GB">[COLOR mediumblue][B]BoongoTV[/B][/COLOR] [COLOR red][B]Wizard[/COLOR]</summary>
+		<description lang="en_GB">[COLOR gold]The Future Of Home Entertainment[/COLOR][CR]Kodi Repository for [COLOR steelblue]BoongoTV[/COLOR][CR][COLOR gold][B]ElectricalForce[/B][/COLOR] [COLOR white]Repo[/COLOR] allows you to install the BoongoTV WIZARD where you can get access to the latest BoongoTV Custom Builds and more.</description>
+		<disclaimer lang="en_GB"></disclaimer>
 		<language>en</language>
 		<platform>all</platform>
 		<license>GPL-2.0-or-later</license>
@@ -966,7 +966,7 @@
 		<website></website> 
 		<email></email>
 		<source></source>
-		<news>1.0.5 - Initial Release
+		<news>
 		</news>
 		<assets>
 				<icon>resources/icon.png</icon>
@@ -979,7 +979,7 @@
 </addon>
 	
 	
-<addon id="plugin.program.BoongoTV.Wizard" name="[COLOR blue]BoongoTV[/COLOR] [COLOR red]Wizard[/COLOR]" version="0.0.2" provider-name="[COLOR red]ElectricalForce[/COLOR]">
+<addon id="plugin.program.BoongoTV.Wizard" name="[COLOR mediumblue][B]BoongoTV[/B][/COLOR] [COLOR red][B]Wizard[/B][/COLOR]" version="0.0.2" provider-name="[COLOR gold][B]ElectricalForce[/B][/COLOR]">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -995,8 +995,8 @@
     <extension point="xbmc.service" library="startup.py" start="startup" />
     
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR blue]BoongoTV[/COLOR] [COLOR red]Wizard[/COLOR]</summary>
-        <description lang="en"></description>
+        <summary lang="en">[COLOR mediumblue][B]BoongoTV[/B][/COLOR] [COLOR red][B]Wizard[/B][/COLOR]</summary>
+        <description lang="en">[COLOR gold]The Future Of Home Entertainment[/COLOR][CR]Kodi Repository for [COLOR steelblue]BoongoTV[/COLOR][CR][COLOR gold][B]ElectricalForce[/B][/COLOR] [COLOR white]Repo[/COLOR] allows you to install the BoongoTV WIZARD where you can get access to the latest BoongoTV Custom Builds and more.</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <source>http://electricalforce.eu</source>
