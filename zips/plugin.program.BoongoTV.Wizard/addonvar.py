@@ -5,7 +5,7 @@ from datetime import datetime
 addon_id = xbmcaddon.Addon().getAddonInfo('id')
 
 '''#####-----Build File-----#####'''
-buildfile = 'https://raw.githubusercontent.com/ElectricalForceMK/repo/master/BoongoTVBuild.json'
+buildfile = 'https://raw.githubusercontent.com/ElectricalForceMK/repo/master/BoongoTVBuild-Finis.json'
 
 '''#####-----Notifications File-----#####'''
 notify_url  = 'https://raw.githubusercontent.com/ElectricalForceMK/repo/master/IzvestuvajneWizardBoongoTV.txt'
